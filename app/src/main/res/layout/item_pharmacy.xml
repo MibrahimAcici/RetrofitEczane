@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="16dp"
+    app:contentPadding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_pharmacy_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AHMET"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_pharmacy_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_phone"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tv_pharmacy_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="178"
+            android:textSize="18sp"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_location"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
